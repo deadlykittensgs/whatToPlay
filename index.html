@@ -10,10 +10,14 @@
 
     
 <header>
-    <h1>WhatToPlay</h1>
+    <h1>What-To-Play</h1>
+<div class="headerBtns">
+    <button>one</button>
+    <button>two</button>
+    <button>three</button>
+</div>
 </header>
-    
-   
+
      
        <!-- <div> 
         <button>intro</button>
@@ -21,34 +25,61 @@
         <button>bridge</button>
         <button>outro</button>
        </div> -->
+<section>
 
-    <div>
+    <div class="whatFor">
+    <h2>What is This For?</h2>
+
+    <p>This page is intended to make playing music with friends easier
+        not everyone has a personal drummer so this app is made to show chord 
+        changes to keep everyone in time and on the same part of the song.
+    </p>
+</div>
+
+<div class="howToSetup">
+
+   <h4>How do I set it up?</h4>
+<p>
+    just go ahead and type in the first chord you want to play 
+    and hit add and it will be added to your q.  do this with all the 
+    chords in the song and set the tempo and hit start and you are free to go! 
+    the song will play on a loop as long as you like. if you want to practice specific 
+    parts just click reset and put only those chords in and practice on repeat
+</p>
+  
+</div>
+
+<div class="getPlaying" >
+     <h3>Get Playing!</h3>
+    </div>
+
+    <div class="inputBar" >
         <button onclick="clearAll()"> Clear All</button>
         <input id="textBox" type="text" />
         <button onclick="addToSelected(totalSong)" > Add </button>
         <button onclick="undo()"> Undo</button>
     </div>
 
-       
-    
-    
-    
-       <div>
-    <div> 
-        <p>BPM</p>
-        <p>100</p>
-    </div>
-    
-        <button>-5</button>
-        <input id="input" type="number" />
-        <button>-5</button>
-    </div>
-    
-    
-        <div>
-            <p id="song" ></p>
+    <div class="tempo">
+        <div class="showTempo"> 
+            <p>BPM</p>
+            <p>100</p>
+        </div>
+        <div  class="tempoImput" >
+            <button>-5</button>
+            <input id="input" type="number" />
+            <button>+5</button>
+        </div>
            
         </div>
+  
+    
+        <div>
+            <p id="song" >song</p>
+        </div>
+    </section>
+        <footer> footer</footer>
+
     
     
     
