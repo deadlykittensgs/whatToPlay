@@ -62,3 +62,12 @@ function HandleClick() {
     progression.innerText = `${totalSong}`
 
   }
+
+
+  function highlightPlayedChord() {
+    console.log("turnRed")
+// write a function that turns one of the words nn the array red to show it is being played
+    totalSong[1].style.color ="red"
+
+
+  }
